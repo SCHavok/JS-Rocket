@@ -4,7 +4,7 @@ var randomNum = function(){
 		var randomNumber = Math.round(Math.random()*10);
 		console.log("Random Num: " + randomNumber);
 		//success
-		if (randomNumber > 5) {
+		if (randomNumber > 2) {
 			// do something
 			changeState(4);
 		} else{
